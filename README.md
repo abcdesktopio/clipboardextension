@@ -41,4 +41,4 @@ To install plugin as developper :
   adding: popup/popup.html (deflated 39%)
 ```
 
-The zip file path is `/tmp/abcdesktop-1.0.0.zip` 
+The new zip file is `abcdesktop-1.0.0.zip` 
