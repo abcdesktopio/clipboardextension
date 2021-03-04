@@ -26,3 +26,17 @@ To install plugin as developper :
 - select manifest.json file in plugin source code directory  
 - Reload your web site page
 
+
+## Create the zip file 
+
+./create_zip.sh 
+  adding: Injected.js (deflated 42%)
+  adding: contentscript.js (deflated 57%)
+  adding: icons/ (stored 0%)
+  adding: icons/abcdesktop.svg (deflated 53%)
+  adding: manifest.json (deflated 52%)
+  adding: popup/ (stored 0%)
+  adding: popup/popup.css (deflated 35%)
+  adding: popup/popup.html (deflated 39%)
+
+The zip file path is /tmp/abcdesktop-1.0.0.zip 
