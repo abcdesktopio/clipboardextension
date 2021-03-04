@@ -29,7 +29,8 @@ To install plugin as developper :
 
 ## Create the zip file 
 
-./create_zip.sh 
+```
+  ./create_zip.sh 
   adding: Injected.js (deflated 42%)
   adding: contentscript.js (deflated 57%)
   adding: icons/ (stored 0%)
@@ -38,5 +39,6 @@ To install plugin as developper :
   adding: popup/ (stored 0%)
   adding: popup/popup.css (deflated 35%)
   adding: popup/popup.html (deflated 39%)
+```
 
-The zip file path is /tmp/abcdesktop-1.0.0.zip 
+The zip file path is `/tmp/abcdesktop-1.0.0.zip` 
