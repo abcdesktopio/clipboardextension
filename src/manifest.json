@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "abcdesktop Clipboard Helper",
-  "version": "0.1",
+  "version": "1.0.0",
   "permissions": ["clipboardRead","clipboardWrite","activeTab"],
   "content_scripts": [
     {
