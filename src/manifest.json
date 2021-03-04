@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "abcdesktop Clipboard Helper",
+  "version": "0.1",
+  "permissions": ["clipboardRead","clipboardWrite","activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "include_globs": ["*desktop*"],
+      "js": ["contentscript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+      "Injected.js"
+  ],
+   "icons": {
+    "48": "icons/abcdesktop.svg"
+  },
+  "browser_action": {
+    "default_icon": {
+        "24": "icons/abcdesktop.svg",
+        "48": "icons/abcdesktop.svg",
+        "96": "icons/abcdesktop.svg"
+    },
+    "default_popup": "popup/popup.html"
+  }
+  
+}

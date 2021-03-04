@@ -1,4 +1,3 @@
-
 # clipboardextension
 clipboard plugins extension for Firefox  
 This extension is compatible with Firefox and Chrome navigators (other navigators have not been tested).  

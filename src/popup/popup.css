@@ -1,0 +1,18 @@
+html, body {
+  width: 200px;
+}
+
+#popup-content {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.item > img {
+  margin-right: 16px;
+}
