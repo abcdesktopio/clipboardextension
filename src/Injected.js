@@ -3,7 +3,7 @@ console.log('desktop clipboard extension init');
 var localclip="";
 
 function pastClipboard(text) {
-	if(window.od.broadway.isConnected() === true) {
+	if ( window.hasOwnProperty('od') && window.od.broadway.isConnected instanceof Function && window.od.broadway.isConnected() === true) {
 		window.od.broadway.syncClipBoardtoAbcDesktop(text);
 		localclip=text;
 	}
