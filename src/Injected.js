@@ -1,4 +1,4 @@
-console.log('dektop clipboard extension init');
+console.log('desktop clipboard extension init');
 
 var localclip="";
 
