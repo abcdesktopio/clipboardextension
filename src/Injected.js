@@ -1,11 +1,10 @@
-console.log('ready');
+console.log('dektop clipboard extension init');
 
 var localclip="";
 
 function pastClipboard(text) {
 	if(window.od.broadway.isConnected() === true) {
-		window.od.broadway.syncClipBoardtoOpenDesktop(text);
-
+		window.od.broadway.syncClipBoardtoAbcDesktop(text);
 		localclip=text;
 	}
 }
